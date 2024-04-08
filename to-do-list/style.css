@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28343c;
+
+}
+
+h2{
+    background-color: white;
+text-align: center;
+font-weight: 700;
+}
+.box{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+
+}
+
+#item{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 28px;
+    display: block;
+    font-weight:600;
+    box-shadow: 0px 0px 2px gray  ;
+}
+
+#to-do-box{
+    list-style: none;
+    margin-top: 20px;
+}
+
+#to-do-box li{
+    position: relative;
+    background-color: #170c3e;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    padding-right: 30px;
+    text-align: justifyn;
+    margin-top: 10px;
+    user-select: none;
+}
+
+
+#to-do-box li i{
+    position: absolute;
+    right: 10px;
+    top:10px;
+}
+
+.checked{
+    text-decoration: line-through;
+    color: black;
+    background-color: #95a5a6 !important;
+}
