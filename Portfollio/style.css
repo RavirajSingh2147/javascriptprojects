@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Poppins',sans-serif;
+    background-color:#1E213D ;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    top: 0;
+    left: 0;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#9333EA;     
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.sticky-footer{
+    position: sticky;
+    background-color: #9333EA;
+    text-align: center;
+    color: white;
+    top: 100%;
+}
+
+.social-icons a{
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+    padding-right: 10px;
+}
+
+.ravi{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+.footer{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    margin-inline: 15px;
+    border-right: 2px solid white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+.hero-top-data{
+    text-transform: uppercase;
+    font-size:20px;
+    color: white;
+}
+.hero-heading{
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #9333EA;
+}
+.hero-para{
+    text-transform: uppercase;
+    font-size:15px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.section-hero-img img{
+ height: 400px;
+ width: auto;
+}
+
+.btn{
+    text-decoration: none;
+    background:white ;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+    color: #9333EA;
+    font-weight: 500;
+    transition: 0.4s ease-in-out all;
+    
+}
+.btn2{
+    text-decoration: none;
+    background:white ;
+    padding: 5px;
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+    color: #9333EA;
+    font-weight: 500;
+    transition: 0.4s ease-in-out all;
+}
+
+.btn:hover{
+    background-color: #9333EA;
+    color: white;
+}
+
+
+
+/* Portfollio */
+#portfolio-section{
+    transition: 0.5s ease;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px 90px;
+}
+
+.container-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+}
+
+.container-section .card{
+    flex: 1;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0,.2);
+}
+.container-section .card img{
+    height: auto;
+    width: 100%;
+}
+
+.container-section .card h2{
+margin: 15px 0px;
+font-size: 30px;
+color:#9333EA;
+}
+
+.container-section .card p{
+    font-size: 12px;
+    line-height: 1.5;
+    color: white;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+#portfolio-section hr{
+    border: none;
+    width: 180px;
+    height: 5px;
+    background-color:white;
+    border-radius: 10px ;
+margin: 0 auto;
+    align-items: center;
+} 
+#portfolio-section h1{
+    text-align: center;
+    font-size: 30px;
+    color: #9333EA;
+}
+@media screen and (max-width:768px){
+    .container-section{
+        flex-direction: column;
+    }
+
+}
+
+/* About */
+.rightcontainer hr {
+    border: none;
+    width: 180px;
+    height: 5px;
+    background-color:white;
+    border-radius: 10px ;
+    margin-bottom: 10px;
+
+}
+.rightcontainer h2{
+    font-size: 30px;
+    color: #9333EA;}
+.hero-img img{
+    height: 100%;
+    width: 100%;
+}
+.aboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+padding-left: 50px;
+}
+.rightcontainer span{
+    color: blueviolet;
+}
+.rightcontainer h3{
+    margin-bottom: 10px;
+    color: white;
+}
+.rightcontainer  a{
+    margin-bottom: 20px;
+}
+.rightcontainer p{
+    width: 70%;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+/* Contact */
+ .contact-container{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    top: 0;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.contact-left-title h2{
+    font-weight: 700;
+    color: blueviolet;
+    letter-spacing: 3px;
+} 
+ .contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color:white;
+    border-radius: 10px ;
+    margin-bottom: 10px;
+} 
+
+ .contact-input{
+    outline: none;
+    width: 400px;
+    height: 50px;
+    border: none;
+    padding-left: 25px;
+    color: #666;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-input:focus{
+    border: 2px solid #9333EA ;
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 13px;
+    font-size: 16px;
+    color:#9333EA;
+    gap: 10px;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 50px;
+    background:white;
+    cursor: pointer;
+
+}
+@media screen and (max-width:768px){
+    .right-container img{
+        display: none;
+    }
+
+}
+#contact{
+    transition:1s ease-in;
+} 
